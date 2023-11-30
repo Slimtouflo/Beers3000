@@ -1,0 +1,22 @@
+@use "reset";
+@use "variables" as v;
+@use "mixin" as m;
+
+body {
+    background-image: url(/img/fond-campagne.jpg);
+    background-size: 100%;
+    color: white;
+    height: 100%;
+
+    div {
+        display: flex;
+        width: 70%;
+        margin: auto;
+        
+
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
