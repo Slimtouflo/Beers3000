@@ -2,10 +2,13 @@
     color: $text-color;
     background-color: $background-color;
     border: 0.2rem solid $background-color;
-    padding: 1rem;
+    padding: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-decoration: none;
     width: 60%;
-    font-size: large;
+    font-size: 1.6rem;
+    font-weight: 700;
 
     @if $radius {
         border-radius: $radius;

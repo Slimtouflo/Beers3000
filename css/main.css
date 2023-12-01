@@ -27,16 +27,35 @@ body div {
 body div div {
   display: flex;
   flex-direction: column;
-  text-shadow: 2rem;
+  text-shadow: black 1px 0 10px;
+  padding-top: 4rem;
+}
+body div div .Ligne1 {
+  font-weight: 300;
+}
+body div div .Ligne2 {
+  font-weight: 750;
+}
+body div div h1 {
+  margin: 0;
+  font-size: 5rem;
+}
+body div div p {
+  font-size: large;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 body div div button {
   color: white;
   background-color: #876f4d;
   border: 0.2rem solid #876f4d;
-  padding: 1rem;
+  padding: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   text-decoration: none;
   width: 60%;
-  font-size: large;
+  font-size: 1.6rem;
+  font-weight: 700;
   border-radius: 1rem;
 }
 body div div button:hover, body div div button:focus {
