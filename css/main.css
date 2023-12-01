@@ -22,10 +22,26 @@ body div {
   display: flex;
   width: 70%;
   margin: auto;
+  margin-top: 10rem;
 }
 body div div {
   display: flex;
   flex-direction: column;
+  text-shadow: 2rem;
+}
+body div div button {
+  color: white;
+  background-color: #876f4d;
+  border: 0.2rem solid #876f4d;
+  padding: 1rem;
+  text-decoration: none;
+  width: 60%;
+  font-size: large;
+  border-radius: 1rem;
+}
+body div div button:hover, body div div button:focus {
+  color: #876f4d;
+  background-color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
